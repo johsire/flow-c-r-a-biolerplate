@@ -1,0 +1,33 @@
+{
+  "name": "flow-tutorial",
+  "version": "0.1.0",
+  "private": true,
+  "main": "lib/index.js",
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "2.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "babel src/ -d lib/",
+    "prepublish": "npm run build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "flow": "flow"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.83.0"
+  }
+}
