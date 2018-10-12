@@ -1,8 +1,15 @@
+
+// @flow
+
+// In every Component, we are supposed to provide types of its Props and State or get an error!
+// Use empty carly braces to say its empty and doesnt contain any Props or State to be defined;
+
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-class App extends Component {
+
+class App extends Component <{}> {
   render() {
     return (
       <div className="App">
